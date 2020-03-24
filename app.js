@@ -18,7 +18,7 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
     
 // assign mongoose promise library and connect to database
-mongoose.connect("mongodb+srv://user:0000@cluster0-xenbg.gcp.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://user:0000@cluster0-oo7be.azure.mongodb.net/test?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useCreateIndex: true,
 	useUnifiedTopology: true
