@@ -15,7 +15,7 @@ router.get("/register", function(req, res){
 
 //handle sign up logic
 router.post("/register", function(req, res){
-    var newUser = new User({email: req.body.email, username: req.body.username});
+    var newUser = new User({username: req.body.username, name: req.body.name});
     // if(req.body.adminCode === process.env.ADMIN_CODE) {
     //   newUser.isAdmin = true;
     // }
