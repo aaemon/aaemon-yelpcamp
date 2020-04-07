@@ -2,7 +2,7 @@
 Yelpcamp - a camping website using node.js
 
 # live-demo
-https://yelpcamp-aaemon.herokuapp.com/
+https://aaemon-yelpcamp.herokuapp.com/
 
 # live-demo
 https://aaemon-yelpcamp.glitch.me
